@@ -41,10 +41,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > `cp -p SRC_PATH DST_FILE_OR_DIR`
 
 > * Locate certain Python files; e.g. lesson_something_.py:
-> `find . -name 'lesson*.py'`
+>> `find . -name 'lesson*.py'`
 
 > * Kill a running Python script; e.g. my_script.py
-> `pkill -f 'python.*my_script.py'`
+>> `pkill -f 'python.*my_script.py'`
 
 
 ---
@@ -80,10 +80,10 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 >* List all files on long format on chronological order
-> `ls -alrt`
+>> `ls -alrt`
 
 >* Display special chars in file names as escape sequences
-> `ls -b`
+>> `ls -b`
 
 
 ---
@@ -108,7 +108,7 @@ What does `xargs` do? Give an example of how to use it.
 ```
 
 >Example: list file names containin a specific pattern
->`find . -name '*.txt' | xargs grep -l PATTERN`
+>>`find . -name '*.txt' | xargs grep -l PATTERN`
 
 
  
