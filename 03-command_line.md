@@ -20,18 +20,29 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 > pwd
+
 > mkdir -p DIR
+
 > rm -rf DIR # if non-empty
+
 > rmdir DIR  # if empty
+
 > touch FILE
+
 > touch -r REFERENCE_FILE FILE
+
 > rm -f FILE
+
 > mv OLD_NAME NEW_NAME
+
 > ls -a
+
 > cp -p SRC_PATH DST_FILE_OR_DIR
-* Locate certain Python files; e.g. lesson_something_.py:
+
+> * Locate certain Python files; e.g. lesson_something_.py:
 > find . -name 'lesson*.py'
-* Kill a running Python script; e.g. my_script.py
+
+> * Kill a running Python script; e.g. my_script.py
 > pkill -f 'python.*my_script.py'
 
 
