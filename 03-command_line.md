@@ -23,9 +23,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 > mkdir -p DIR
 
-> rm -rf DIR # if non-empty
-
-> rmdir DIR  # if empty
+> * remove non-empty dir
+>> rm -rf DIR
+> * remove empty dir
+>> rmdir DIR
 
 > touch FILE
 
@@ -40,11 +41,10 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > cp -p SRC_PATH DST_FILE_OR_DIR
 
 > * Locate certain Python files; e.g. lesson_something_.py:
-> find . -name 'lesson*.py'
+>> find . -name 'lesson*.py'
 
 > * Kill a running Python script; e.g. my_script.py
-> pkill -f 'python.*my_script.py'
-
+>> pkill -f 'python.*my_script.py'
 
 
 ---
@@ -61,12 +61,16 @@ What do the following commands do:
 `ls -Glp`  
 
 >List all regular files in the current dir
+
 >List all files (regular + .hidden) in the current dir
+
 >List all regular files, long format
->List all regulat files, long format with size in B(ytes),
->K(Bytes), M(Bytes), etc. whichever appropriate
+>List all regulat files, long format with size in B(ytes), K(Bytes), M(Bytes), etc. whichever appropriate
+
 >Like the above, include hidden files
+
 >List sorted by the modification timestamp, newest first
+
 >List using colors, in long format, with trailing / after dir names
 
 ---
@@ -75,10 +79,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-* List all files on long format on chronological order
-> ls -alrt
-* Display special chars in file names as escape sequences
-> ls -b
+>* List all files on long format on chronological order
+>> ls -alrt
+
+>* Display special chars in file names as escape sequences
+>> ls -b
 
 
 ---
@@ -87,21 +92,23 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> NAME
->      xargs -- construct argument list(s) and execute utility
-> 
-> SYNOPSIS
->      xargs [-0opt] [-E eofstr] [-I replstr [-R replacements]] [-J replstr]
->            [-L number] [-n number [-x]] [-P maxprocs] [-s size]
->            [utility [argument ...]]
-> 
-> DESCRIPTION
->      The xargs utility reads space, tab, newline and end-of-file delimited
->      strings from the standard input and executes utility with the strings as
->      arguments.
+```
+ NAME
+      xargs -- construct argument list(s) and execute utility
+ 
+ SYNOPSIS
+      xargs [-0opt] [-E eofstr] [-I replstr [-R replacements]] [-J replstr]
+            [-L number] [-n number [-x]] [-P maxprocs] [-s size]
+            [utility [argument ...]]
+ 
+ DESCRIPTION
+      The xargs utility reads space, tab, newline and end-of-file delimited
+      strings from the standard input and executes utility with the strings as
+      arguments.
+```
 
-Example: list file names containin a specific pattern
-> find . -name '*.txt' | xargs grep -l PATTERN
+>Example: list file names containin a specific pattern
+>> find . -name '*.txt' | xargs grep -l PATTERN
 
 
  
