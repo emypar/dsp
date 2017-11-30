@@ -19,7 +19,22 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> pwd
+> mkdir -p DIR
+> rm -rf DIR # if non-empty
+> rmdir DIR  # if empty
+> touch FILE
+> touch -r REFERENCE_FILE FILE
+> rm -f FILE
+> mv OLD_NAME NEW_NAME
+> ls -a
+> cp -p SRC_PATH DST_FILE_OR_DIR
+* Locate certain Python files; e.g. lesson_something_.py:
+> find . -name 'lesson*.py'
+* Kill a running Python script; e.g. my_script.py
+> pkill -f 'python.*my_script.py'
+
+
 
 ---
 
@@ -34,7 +49,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>List all regular files in the current dir
+>List all files (regular + .hidden) in the current dir
+>List all regular files, long format
+>List all regulat files, long format with size in B(ytes),
+>K(Bytes), M(Bytes), etc. whichever appropriate
+>Like the above, include hidden files
+>List sorted by the modification timestamp, newest first
+>List using colors, in long format, with trailing / after dir names
 
 ---
 
@@ -42,7 +64,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* List all files on long format on chronological order
+> ls -alrt
+* Display special chars in file names as escape sequences
+> ls -b
+
 
 ---
 
@@ -50,7 +76,22 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> NAME
+>      xargs -- construct argument list(s) and execute utility
+> 
+> SYNOPSIS
+>      xargs [-0opt] [-E eofstr] [-I replstr [-R replacements]] [-J replstr]
+>            [-L number] [-n number [-x]] [-P maxprocs] [-s size]
+>            [utility [argument ...]]
+> 
+> DESCRIPTION
+>      The xargs utility reads space, tab, newline and end-of-file delimited
+>      strings from the standard input and executes utility with the strings as
+>      arguments.
+
+Example: list file names containin a specific pattern
+> find . -name '*.txt' | xargs grep -l PATTERN
+
 
  
 
