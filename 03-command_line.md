@@ -108,8 +108,14 @@ What does `xargs` do? Give an example of how to use it.
 ```
 
 >Example: list file names containin a specific pattern
->>`find . -name '*.txt' | xargs grep -l PATTERN`
-
+>>`find . -name '*.txt' | xargs -n 20 grep -l PATTERN`
+>xargs will batch the output from find into groups of 20 files at a time. This
+>is more efficient than 
+>>`find . -name '*.txt' -exec grep -l PATTERN '{}' ';'` 
+>which would invoke grep for each file and more robust than
+>>```grep PATTERN `find . -name '*.txt'````
+>because the command substitution output may exceed the maximum number/size of
+>arguments (there could be millions of files).
 
  
 
