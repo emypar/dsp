@@ -65,8 +65,35 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+>> List (or set/dictionary) comprehensions represent convenient
+>> shortcut methods for building objects. They consist of an
+>> expression with arguments taking values from a sequence/iterable
+>> subject to optional conditions.
+>>
+>> * List example: given a list of integers, build the list of squares for
+>> multiples of 3:
+>>
+>>      int_list = range(13, 111)
+>>      m3_squares = [i**2 for i in int_list if not i % 3]
+>>
+>> the same can be achieved by using map over a (filtered) list:
+>>
+>>      m3_squares = map(lambda i: i**2, filter(lambda i: not i % 3,
+>>                                              int_list))
+>>
+>> * Set example: build the set of unique characters used in a text:
+>>
+>>      text = 'This is the text for which we have to find ' + \
+>>             'all unique characters, case insensitive.'
+>>
+>>      text_chars = {c for c in text.lower()}
+>>
+>> * Dictionary example: build a cache for square root of frequently
+>>   needed numbers:
+>>
+>>      freq_nums = [1.1, 2.34, 19, 8]
+>>      sqrt_cache = {x: x**.5 for x in freq_nums}
+>>
 ---
 
 ### Complete the following problems by editing the files below:
