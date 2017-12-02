@@ -56,7 +56,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>      a_list = [(1, 10), (2, 9), (3, 8)]
 >>      sorted(a_list, key=lambda x: x[1])
 >>
->> will return
+>> will result into
 >>
 >>      [(3, 8), (2, 9), (1, 10)
 ---
