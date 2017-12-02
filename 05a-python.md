@@ -30,7 +30,6 @@ How are Python lists and sets similar and different? Give examples of using both
    are very efficient for removing duplicates and testing membership
    because the lookup works in constant time O(0), unlike lists which
    require linear time O(n), n being the size of the list.
-
    ```
    a_list = [1, 1, 2, 4, 2, 1]
    a_list_no_dups = set(a_list)
