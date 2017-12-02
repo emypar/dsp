@@ -36,11 +36,10 @@ How are Python lists and sets similar and different? Give examples of using both
 >>
 >> The following lookups yield the same result
 >>
->>	    i in a_list
->>	    i in a_list_no_dups
+>>     i in a_list
+>>     i in a_list_no_dups
 >>
 >> the latter being more efficient.
-   
 
 ---
 
