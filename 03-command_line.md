@@ -130,6 +130,3 @@ What does `xargs` do? Give an example of how to use it.
 >
 >because the command substitution output may exceed the maximum number/size of
 >arguments (there could be millions of files).
-
- 
-
