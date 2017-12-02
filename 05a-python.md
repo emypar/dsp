@@ -31,13 +31,13 @@ How are Python lists and sets similar and different? Give examples of using both
 >> because the lookup works in constant time O(0), unlike lists which
 >> require linear time O(n), n being the size of the list.
 >>
->>	a_list = [1, 1, 2, 4, 2, 1]
->>	a_list_no_dups = set(a_list)
+>>     a_list = [1, 1, 2, 4, 2, 1]
+>>     a_list_no_dups = set(a_list)
 >>
 >> The following lookups yield the same result
 >>
->>	i in a_list
->>	i in a_list_no_dups
+>>	    i in a_list
+>>	    i in a_list_no_dups
 >>
 >> the latter being more efficient.
    
