@@ -70,7 +70,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >> expression with arguments taking values from a sequence/iterable
 >> subject to optional conditions.
 >>
->> * List example: given a list of integers, build the list of squares for
+>> List example: given a list of integers, build the list of squares for
 >> multiples of 3:
 >>
 >>      int_list = range(13, 111)
@@ -81,15 +81,15 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>      m3_squares = map(lambda i: i**2, filter(lambda i: not i % 3,
 >>                                              int_list))
 >>
->> * Set example: build the set of unique characters used in a text:
+>> Set example: build the set of unique characters used in a text:
 >>
 >>      text = 'This is the text for which we have to find ' + \
 >>             'all unique characters, case insensitive.'
 >>
 >>      text_chars = {c for c in text.lower()}
 >>
->> * Dictionary example: build a cache for square root of frequently
->>   needed numbers:
+>> Dictionary example: build a cache for square root of frequently
+>> needed numbers:
 >>
 >>      freq_nums = [1.1, 2.34, 19, 8]
 >>      sqrt_cache = {x: x**.5 for x in freq_nums}
