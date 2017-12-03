@@ -18,7 +18,7 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    return 'Number of donuts: {}'.format(count if count < 10 else 'many')
 
 
 def both_ends(s):
@@ -37,7 +37,8 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+
+    return s[:2] + s[-2:] if len(s) >= 2 else ''
 
 
 def fix_start(s):
@@ -56,7 +57,11 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+
+    r = s[0]
+    for c in s[1:]:
+      r += '*' if c == s[0] else c
+    return r
 
 
 def mix_up(a, b):
@@ -74,7 +79,8 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+
+    return b[:2] + a[2:] + ' ' + a[:2] + b[2:]
 
 
 def verbing(s):
@@ -91,7 +97,9 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    return (s if len(s) < 3
+            else s + 'ly' if s[-3:] == 'ing'
+            else s + 'ing')
 
 
 def not_bad(s):
@@ -111,7 +119,20 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+
+    # Note: assume strings and substring, not words! i.e.
+    # 'A tight knot for Simbad' will be converted to
+    # 'A tight kgood'.
+    sub1 = 'not'
+    sub2 = 'bad'
+    repl = 'good'
+    i1 = s.find(sub1)
+    if i1 == -1:
+      return s
+    i2 = s.find(sub2, i1+len(sub1))
+    if i2 == -1:
+      return s
+    return s[:i1] + repl + s[i2+len(sub2):]
 
 
 def front_back(a, b):
@@ -130,4 +151,11 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    def _half_words(w):
+      m = (len(w)+1)/2
+      return w[:m], w[m:]
+
+    a_front, a_back = _half_words(a)
+    b_front, b_back = _half_words(b)
+    return a_front + b_front + a_back + b_back
+
