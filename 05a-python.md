@@ -141,6 +141,11 @@ Edit the 7 functions in [q6_strings.py](python/q6_strings.py)
 ### Q7. Lists
 Edit the 5 functions in [q7_lists.py](python/q7_lists.py)
 
+>> NOTE! To test the functions run
+>>
+>>      python -m doctest -v q7_lists.py
+>>
+
 ---
 
 ### Q8. Parsing
