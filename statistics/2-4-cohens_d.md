@@ -14,3 +14,5 @@
 >> **Conclusion:** While first baby pregancies are longer on average
      (i.e. opposite direction than weight) the side effect is both small as per
      Cohen's d and insignificant in meaning (.08 weeks = 0.56 days = 13 hrs)
+>>
+>> Code: [2-4-cohens_d.ipynb](2-4-cohens_d.ipynb)
