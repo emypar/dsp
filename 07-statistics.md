@@ -88,8 +88,8 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 >> Let P(FT), P(IT) and P(T) denote the probabilities for fraternal, identical and unspecified twins accordingly. The question asks the probability of identical twins given the existence of a twin sibling.  
 >>  `P(IT|T) = P(T|IT) * P(IT) / P(T)`  
->>   `P(T|IT) = 1` (Identical Twins is a subset of Twins event) 
->>   `P(T) = P(FT) + P(IT)` (mutually exclusive events)  
+>>    `P(T|IT) = 1` (Identical Twins is a subset of Twins event)  
+>>    `P(T) = P(FT) + P(IT)` (mutually exclusive events)  
 >>  `P(IT|T) = P(IT) / (P(FT) + P(IT)) = 1/300 / (1/125+1/300) = 0.294`  
 >> **Answer**: 0.294
 
