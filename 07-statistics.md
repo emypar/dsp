@@ -108,7 +108,7 @@ How do frequentist and Bayesian statistics compare?
 >> it defines an event's probability as the limit of its relative frequency in a
 >> large number of trials." Source [Wikipedia - Frequentist probability](https://en.wikipedia.org/wiki/Frequentist_probability)
 >>
-
+>>
 >> "The Bayesian school models uncertainty by a probability distribution over
 >> hypotheses.  One’s ability to make inferences depends on one’s degree of
 >> confidence in the chosen prior, and the robustness of the findings to
