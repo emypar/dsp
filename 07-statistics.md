@@ -100,8 +100,8 @@ How do frequentist and Bayesian statistics compare?
 
 >> "Bayesian probability is an interpretation of the concept of probability, in
 >>  which, instead of frequency or propensity of some phenomenon, probability is
->>  interpreted as reasonable expectation[1] representing a state of
->>  knowledge[2] or as quantification of a personal belief". Source: [Wikipedia -
+>>  interpreted as reasonable expectation representing a state of
+>>  knowledge or as quantification of a personal belief". Source: [Wikipedia -
 >>  Bayesian Probability](https://en.wikipedia.org/wiki/Bayesian_probability#Objective_and_subjective_Bayesian_probabilities).
 >>
 >> "Frequentist probability or frequentism is an interpretation of probability;
