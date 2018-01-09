@@ -98,7 +98,26 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> "Bayesian probability is an interpretation of the concept of probability, in
+>>  which, instead of frequency or propensity of some phenomenon, probability is
+>>  interpreted as reasonable expectation[1] representing a state of
+>>  knowledge[2] or as quantification of a personal belief". Source: [Wikipedia -
+>>  Bayesian Probability](https://en.wikipedia.org/wiki/Bayesian_probability#Objective_and_subjective_Bayesian_probabilities).
+>>
+>> "Frequentist probability or frequentism is an interpretation of probability;
+>> it defines an event's probability as the limit of its relative frequency in a
+>> large number of trials." Source [Wikipedia - Frequentist probability](https://en.wikipedia.org/wiki/Frequentist_probability)
+>>
+
+>> "The Bayesian school models uncertainty by a probability distribution over
+>> hypotheses.  One’s ability to make inferences depends on one’s degree of
+>> confidence in the chosen prior, and the robustness of the findings to
+>> alternate prior distributions may be relevant and important.  The frequentist
+>> school only uses conditional distributions of data given specific hypotheses.
+>> The presumption is that some hypothesis (parameter specifying the conditional
+>> distribution of the data) is true and that the observed data is sampled from
+>> that distribution. In particular, the frequentist approach does not depend on
+>> a subjective prior that may vary from one investigator to another." Source: [MIT 18.05 Introduction to Probability and Statistics - Comparison of frequentist and Bayesian inference.](https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading20.pdf)
 
 ---
 
