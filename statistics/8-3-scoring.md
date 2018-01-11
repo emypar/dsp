@@ -3,7 +3,7 @@
 ---
 
 >> The distribution of estimates and 90% confidence interval for lam=2:
->> ![8-3-scoring-plot-2.png](8-3-scoring-plot-2.png)
+>> ![8-3-scoring-plot-2.png](8-3-scoring-plot-2.png)  
 >> See [code](8-3-scoring.ipynb) for all plots.
 >>
 >> ```
