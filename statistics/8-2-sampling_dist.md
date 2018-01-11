@@ -11,5 +11,5 @@
 >>100          0.207680  (1.7116852503, 2.38757391051)  
 >>1000         0.064909  (1.8946167797, 2.11013607849)  
 >>```
->> **Conclusion:** As expected the larger the size, the closer the estimate.  
+>> **Conclusion:** As expected, the larger the size, the closer the estimate.  
 >> **Code:** [8-2-sampling_dist.ipynb](8-2-sampling_dist.ipynb)
