@@ -15,4 +15,6 @@
      (i.e. opposite direction than weight) the side effect is both small as per
      Cohen's d and insignificant in meaning (.08 weeks = 0.56 days = 13 hrs)
 >>
->> Code: [2-4-cohens_d.ipynb](2-4-cohens_d.ipynb)
+>> **Code:**   
+>>  - [2-4-cohens_d.ipynb](2-4-cohens_d.ipynb) (direct)
+>>  - [2-4-cohens_d.ipynb](ttps://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/2-4-cohens_d.ipynb) (nbviewer, if direct fails)
