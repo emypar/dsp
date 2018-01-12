@@ -1,11 +1,12 @@
 [Think Stats Chapter 7 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2008.html#toc70) (weight vs. age)
 
 >> Scatter plot weight vs. age:  
->> ![7-1-weight_vs_age-plot-1.png](7-1-weight_vs_age-plot-1.png)
+>> ![7-1-weight_vs_age-plot-1.png](7-1-weight_vs_age-plot-1.png)  
 >>
->> Percentile plot weight vs. age:
->> ![7-1-weight_vs_age-plot-2.png](7-1-weight_vs_age-plot-2.png)
+>> Percentile plot weight vs. age:  
+>> ![7-1-weight_vs_age-plot-2.png](7-1-weight_vs_age-plot-2.png)  
 >>
+>> Correlation:  
 >>`Pearson's=0.068834, Spearman's=0.094610`  
 >>
 >> **Conclusions:**
