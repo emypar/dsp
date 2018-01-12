@@ -17,4 +17,4 @@
 >>
 >> **Code:**   
 >>  - [2-4-cohens_d.ipynb](2-4-cohens_d.ipynb) (direct)
->>  - [2-4-cohens_d.ipynb](ttps://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/2-4-cohens_d.ipynb) (nbviewer, if direct fails)
+>>  - [2-4-cohens_d.ipynb](https://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/2-4-cohens_d.ipynb) (nbviewer, if direct fails)
