@@ -2,7 +2,7 @@
 
 >> `Avg number of children: actual=1.024205, biased=2.403679`
 >>
->> **Code:** [3-1-actual_biased.ipynb](3-1-actual_biased.ipynb) (it includes the plot too)
+>> **Code:** [3-1-actual_biased.ipynb](https://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/3-1-actual_biased.ipynb) (it includes the plot too)
 
 
 

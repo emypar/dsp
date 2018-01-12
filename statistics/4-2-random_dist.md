@@ -6,5 +6,5 @@
 >>
 >> ![CDF Plot](4-2-random_dist-cdf.png "CDF Plot")
 >>
->> **Code:** [4-2-random_dist.ipynb](4-2-random_dist.ipynb)
+>> **Code:** [4-2-random_dist.ipynb](https://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/4-2-random_dist.ipynb)
 

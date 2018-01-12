@@ -20,5 +20,5 @@
 >>  - the total mean error is small, hence the model can be considred unbiased
 >>  - the model overestimates for small lambda and understimates for large lambda
 >>
->> **Code:** [8-3-scoring.ipynb](8-3-scoring.ipynb)
+>> **Code:** [8-3-scoring.ipynb](https://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/8-3-scoring.ipynb)
 ---

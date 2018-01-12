@@ -14,7 +14,7 @@
 >>  2. Spearman's correlation is greater than Pearson's due to some outliers.  
 >>  3. The percentile plot shows a non-linear relationship with weight increasing more quickly till age 25, then slower till age 37 after which it moves to a decreasing relationship.  
 >>
->> **Code:** [7-1-weight_vs_age.ipynb](7-1-weight_vs_age.ipynb)
+>> **Code:** [7-1-weight_vs_age.ipynb](https://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/7-1-weight_vs_age.ipynb)
 
 
 
