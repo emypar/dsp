@@ -3,7 +3,7 @@
 >> ```
 >> Preg Length Actual Stat=0.078037
 >> Birth Weight Actual Stat=0.124761
->> Comparion Table:
+>> Comparison Table:
 >>              Preg Length p-val  Birth Weight p-val
 >> Simulation                                        
 >> Permutation             0.1654                 0.0
