@@ -12,7 +12,7 @@
 >>
 >> **Conclusion:** The p-values returned by both simulation methods are very close
 >> to each other and they lead to the same interpretation:  
->>  - pregnancy lengthdifference is statistically insignificant 
+>>  - pregnancy length difference is statistically insignificant 
 >>  - birth weight length is statisticallysignificant
 >>
 >> **Code:** [9-2-resampling.ipynb](https://nbviewer.jupyter.org/github/emypar/dsp/blob/master/statistics/9-2-resampling.ipynb)
